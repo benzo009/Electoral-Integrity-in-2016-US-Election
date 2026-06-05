@@ -1,0 +1,155 @@
+# US Election Survey Analysis (2016)
+
+## Project Overview
+## after cleanup, Data set was restructured to 726
+
+This project explores voter preferences and perceptions of electoral integrity during the 2016 United States Presidential Election. The analysis was conducted using SQL after cleaning and preparing the dataset in Excel.
+
+The dataset contains 726 survey responses collected across 51 states and includes demographic information, candidate support, and respondents' perceptions of election fairness and integrity.
+
+## Objectives
+
+The primary objectives of this analysis were:
+
+* Examine voter support for the major candidates.
+* Explore demographic voting patterns.
+* Analyze electoral integrity perceptions.
+* Compare voter attitudes across states.
+* Identify patterns between candidate preference and trust in election processes.
+
+## Data Cleaning
+
+Prior to importing the dataset into SQL, the following cleaning activities were performed:
+
+* Removed unnecessary blank rows.
+* Standardized column names for SQL compatibility.
+* Checked for duplicate voter records.
+* Reviewed missing values.
+* Ensured consistent candidate naming conventions.
+* Prepared the dataset in CSV UTF-8 format for SQL import.
+
+## Exploratory Data Analysis
+
+Initial exploration focused on understanding the structure of the dataset.
+
+Key exploratory steps included:
+
+* Counting total records.
+* Identifying unique states.
+* Identifying supported candidates.
+* Reviewing demographic distributions.
+* Assessing data completeness.
+
+## Voting Preference Analysis
+
+Candidate support was analyzed using aggregation queries.
+
+The analysis examined:
+
+* Total support by candidate.
+* Percentage share of respondents supporting each candidate.
+* Candidate popularity across states.
+* Candidate support across gender groups.
+* Candidate support across age categories.
+
+This helped identify which demographic groups were most strongly associated with each candidate.
+
+## Demographic Analysis
+
+Demographic variables were analyzed independently and alongside voting preferences.
+
+The analysis included:
+
+* Gender distribution of respondents.
+* Age distribution of respondents.
+* Geographic distribution by state.
+* Candidate preference by demographic segment.
+
+These findings provided context for understanding voting behavior within different population groups.
+
+## Electoral Integrity Analysis
+
+A major component of the dataset involved perceptions of electoral integrity.
+
+The analysis investigated:
+
+* Average electoral integrity scores.
+* State-level differences in integrity perceptions.
+* Variation in trust across candidate supporters.
+* Distribution of high-trust, medium-trust, and low-trust respondents.
+
+Results indicated that perceptions of election integrity varied considerably across respondent groups.
+
+## State-Level Analysis
+
+State-level analysis focused on identifying regional differences.
+
+The analysis included:
+
+* States with the highest average integrity scores.
+* States with the lowest average integrity scores.
+* Candidate dominance within states.
+* Respondent concentration by state.
+
+This section highlighted geographic variation in election attitudes and voting behavior.
+
+## Advanced SQL Techniques
+
+The project demonstrates several SQL concepts frequently used by data analysts:
+
+* Aggregate Functions
+* GROUP BY
+* ORDER BY
+* DISTINCT
+* HAVING
+* CASE Statements
+* Common Table Expressions (CTEs)
+* Window Functions
+* Ranking Functions
+* Views
+
+Examples include ranking states by electoral integrity and identifying candidate performance across demographic groups.
+
+## Key Insights
+
+Several patterns emerged during the analysis:
+
+* Candidate support varied significantly across demographic groups.
+* Electoral integrity perceptions differed across states.
+* Some candidate supporters expressed higher levels of election trust than others.
+* Geographic location appeared to influence voter perceptions and attitudes.
+* Age and gender were associated with different voting preferences.
+
+## Skills Demonstrated
+
+### SQL
+
+* Data Exploration
+* Data Validation
+* Aggregation
+* Ranking
+* Window Functions
+* CTEs
+* Views
+* Filtering and Grouping
+
+### Excel
+
+* Data Cleaning
+* Data Standardization
+* Missing Value Handling
+* Dataset Preparation
+
+### Data Analysis
+
+* Exploratory Data Analysis
+* Demographic Analysis
+* Survey Analysis
+* Election Data Analysis
+
+## Conclusion
+
+This project demonstrates the end-to-end workflow of a data analyst, beginning with data cleaning in Excel, followed by SQL-based exploration and analysis.
+The project highlights how demographic characteristics and geographic location can influence both voting behavior and perceptions of electoral integrity.
+
+The analysis provides a practical example of using SQL to extract insights from survey-based election data while showcasing core data analysis skills applicable to real-world business and research environments.
