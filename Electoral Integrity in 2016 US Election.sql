@@ -197,9 +197,9 @@ FROM candidate_votes;
 
 SELECT
     CASE
-        WHEN perceptions_of_electoral_integrity_index >= 70 THEN 'High'
-        WHEN perceptions_of_electoral_integrity_index >= 50 THEN 'Medium'
-        ELSE 'Low'
+        WHEN perceptions_of_electoral_integrity_index >= 70 THEN 'Older'
+        WHEN perceptions_of_electoral_integrity_index >= 50 THEN 'youth'
+        ELSE 'low'
     END AS trust_level,
     COUNT(*) AS respondents
 FROM election_survey
