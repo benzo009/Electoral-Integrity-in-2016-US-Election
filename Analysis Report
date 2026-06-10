@@ -26,11 +26,9 @@ Prior to importing the dataset into SQL, the following cleaning activities were 
 * Checked for duplicate voter records.
 * Reviewed missing values.
 * Ensured consistent candidate naming conventions.
-* Prepared the dataset in CSV UTF-8 format for SQL import.
 
-## Exploratory Data Analysis
 
-Initial exploration focused on understanding the structure of the dataset.
+
 
 Key exploratory steps included:
 
@@ -46,11 +44,11 @@ Candidate support was analyzed using aggregation queries.
 
 The analysis examined:
 
-* Total support by candidate.
-* Percentage share of respondents supporting each candidate.
-* Candidate popularity across states.
-* Candidate support across gender groups.
-* Candidate support across age categories.
+- Total support by candidate.
+- Percentage share of respondents supporting each candidate.
+- Candidate popularity across states.
+- Candidate support across gender groups.
+- Candidate support across age categories.
 
 This helped identify which demographic groups were most strongly associated with each candidate.
 
@@ -60,10 +58,10 @@ Demographic variables were analyzed independently and alongside voting preferenc
 
 The analysis included:
 
-* Gender distribution of respondents.
-* Age distribution of respondents.
-* Geographic distribution by state.
-* Candidate preference by demographic segment.
+1. Gender distribution of respondents.
+2. Age distribution of respondents.
+3. Geographic distribution by state.
+4. Candidate preference by demographic segment.
 
 These findings provided context for understanding voting behavior within different population groups.
 
@@ -73,10 +71,10 @@ A major component of the dataset involved perceptions of electoral integrity.
 
 The analysis investigated:
 
-* Average electoral integrity scores.
-* State-level differences in integrity perceptions.
-* Variation in trust across candidate supporters.
-* Distribution of high-trust, medium-trust, and low-trust respondents.
+- Average electoral integrity scores.
+- State-level differences in integrity perceptions.
+- Variation in trust across candidate supporters.
+- Distribution of high-trust, medium-trust, and low-trust respondents.
 
 Results indicated that perceptions of election integrity varied considerably across respondent groups.
 
@@ -93,63 +91,15 @@ The analysis included:
 
 This section highlighted geographic variation in election attitudes and voting behavior.
 
-## Advanced SQL Techniques
-
-The project demonstrates several SQL concepts frequently used by data analysts:
-
-* Aggregate Functions
-* GROUP BY
-* ORDER BY
-* DISTINCT
-* HAVING
-* CASE Statements
-* Common Table Expressions (CTEs)
-* Window Functions
-* Ranking Functions
-* Views
-
-Examples include ranking states by electoral integrity and identifying candidate performance across demographic groups.
-
-## Key Insights
-
 Several patterns emerged during the analysis:
 
-* Candidate support varied significantly across demographic groups.
-* Electoral integrity perceptions differed across states.
-* Some candidate supporters expressed higher levels of election trust than others.
-* Geographic location appeared to influence voter perceptions and attitudes.
-* Age and gender were associated with different voting preferences.
+- Candidate support varied significantly across demographic groups.
+- Electoral integrity perceptions differed across states.
+- Some candidate supporters expressed higher levels of election trust than others.
+- Geographic location appeared to influence voter perceptions and attitudes.
+- Age and gender were associated with different voting preferences.
 
-## Skills Demonstrated
 
-### SQL
+## Recormendation 
 
-* Data Exploration
-* Data Validation
-* Aggregation
-* Ranking
-* Window Functions
-* CTEs
-* Views
-* Filtering and Grouping
 
-### Excel
-
-* Data Cleaning
-* Data Standardization
-* Missing Value Handling
-* Dataset Preparation
-
-### Data Analysis
-
-* Exploratory Data Analysis
-* Demographic Analysis
-* Survey Analysis
-* Election Data Analysis
-
-## Conclusion
-
-This project demonstrates the end-to-end workflow of a data analyst, beginning with data cleaning in Excel, followed by SQL-based exploration and analysis.
-The project highlights how demographic characteristics and geographic location can influence both voting behavior and perceptions of electoral integrity.
-
-The analysis provides a practical example of using SQL to extract insights from survey-based election data while showcasing core data analysis skills applicable to real-world business and research environments.
