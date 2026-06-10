@@ -3,24 +3,16 @@ The Perceptions of Electoral Integrity (PEI) survey asks experts to evaluate ele
 The PEI dataset is designed to provide a comprehensive, systematic and reliable way to monitor the quality of elections worldwide.
 This project analyzes voting patterns,
 candidate performance, voter turnout,
-and state-level election results using SQL,
-Excel
+and state-level election results.
 
 
 # US Election Survey Analysis
 
 ## Project Overview
 
-Analyzed voter preferences, demographic trends, and electoral integrity perceptions using SQL and Excel.
+Analyzed voter preferences, demographic trends, and electoral integrity perceptions.
 
-## Skills Demonstrated
 
-- Data Cleaning
-- SQL Aggregations
-- CTEs
-- Window Functions
-- Views
-- Data Quality Checks
 
 ## Sample Query
 
@@ -30,7 +22,7 @@ SELECT
 FROM election_survey
 GROUP BY candidate_supported;
 
-## Key Findings
+##  Findings
 
 - Trump received the highest support among respondents.
 - Electoral integrity perceptions varied significantly by state.
